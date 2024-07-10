@@ -1,0 +1,29 @@
+.dashboard {
+    flex: 1;
+    padding: 20px;
+    background-color: rgb(105, 8, 105);
+  }
+  
+  .searchBar {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border-radius: 5px;
+    border: 1px solid #4e0560;
+  }
+  
+  .board {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+  }
+  
+  .prompt {
+    background-color: #fefeff;
+    padding: 20px;
+   
+    border-radius: 5px;
+    /* text-align: center; */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
